@@ -1,0 +1,22 @@
+{
+  "name": "asynchronism_course",
+  "version": "1.0.0",
+  "description": "Working with asynchornism in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise:challenge": "node src/promise/challenge.js",
+    "async-await:challenge": "node src/async-await/challenge.js"
+  },
+  "keywords": [
+    "callbacks",
+    "promises",
+    "async"
+  ],
+  "author": "Saul Ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
